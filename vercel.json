@@ -1,0 +1,18 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "OPENAI_API_KEY": "@openai_api_key",
+    "TAVILY_API_KEY": "@tavily_api_key",
+    "GOOGLE_MAPS_API_KEY": "@google_maps_api_key",
+    "NEXT_PUBLIC_MAPBOX_TOKEN": "@mapbox_token",
+    "YELP_API_KEY": "@yelp_api_key",
+    "REDDIT_CLIENT_ID": "@reddit_client_id",
+    "REDDIT_CLIENT_SECRET": "@reddit_client_secret",
+    "REDDIT_USER_AGENT": "@reddit_user_agent",
+    "OPENWEATHER_API_KEY": "@openweather_api_key"
+  }
+}
