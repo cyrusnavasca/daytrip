@@ -19,13 +19,13 @@
 - [x] Wire up OpenWeather API
 
 ## Phase 3 — Agent System (LangGraph or PydanticAI)
-- [ ] **Orchestrator Agent** — manages state, invokes subagents in order
-- [ ] **Search Agent** — generates targeted queries, calls Tavily/SerpAPI + Reddit + Atlas Obscura
-- [ ] **Retrieval/RAG Agent** — chunks results, embeds subset, semantic reranks via pgvector
-- [ ] **Ranking Agent** — scores candidates (vibe, cost, distance, sentiment, uniqueness)
-- [ ] **Routing Agent** — optimizes stop order, computes travel times via Directions API
-- [ ] **Constraint Checker** — validates budget, hours, pacing
-- [ ] Run Search + Weather + Maps tool calls in parallel
+- [x] **Orchestrator Agent** — manages state, invokes subagents in order
+- [x] **Search Agent** — generates targeted queries, calls Tavily/SerpAPI + Reddit + Atlas Obscura
+- [x] **Retrieval/RAG Agent** — chunks results, embeds subset, semantic reranks via pgvector
+- [x] **Ranking Agent** — scores candidates (vibe, cost, distance, sentiment, uniqueness)
+- [x] **Routing Agent** — optimizes stop order, computes travel times via Directions API
+- [x] **Constraint Checker** — validates budget, hours, pacing
+- [x] Run Search + Weather + Maps tool calls in parallel
 
 ## Phase 4 — Itinerary Generation
 - [ ] Final LLM synthesis prompt (readable itinerary + explanations + alternatives)

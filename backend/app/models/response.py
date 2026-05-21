@@ -1,5 +1,6 @@
+from typing import Literal, Optional
+
 from pydantic import BaseModel
-from typing import Optional
 
 
 class Stop(BaseModel):
@@ -11,6 +12,8 @@ class Stop(BaseModel):
     travel_time_to_next: Optional[str] = None
     lat: Optional[float] = None
     lng: Optional[float] = None
+    category: Optional[Literal["activity", "food", "coffee", "hidden_gem", "nature", "shopping"]] = None
+    alternatives: list[str] = []
 
 
 class Itinerary(BaseModel):
@@ -18,4 +21,5 @@ class Itinerary(BaseModel):
     summary: str
     stops: list[Stop]
     total_estimated_cost: float
+    weather_note: str = ""
     warnings: list[str] = []
