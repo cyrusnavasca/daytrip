@@ -28,9 +28,9 @@
 - [x] Run Search + Weather + Maps tool calls in parallel
 
 ## Phase 4 — Itinerary Generation
-- [ ] Final LLM synthesis prompt (readable itinerary + explanations + alternatives)
-- [ ] Enforce structured output schema (JSON with stops, times, costs)
-- [ ] Add backup/alternative suggestions per stop
+- [x] Final LLM synthesis prompt (readable itinerary + explanations + alternatives)
+- [x] Enforce structured output schema (JSON with stops, times, costs)
+- [x] Add backup/alternative suggestions per stop
 
 ## Phase 5 — Frontend UI
 - [ ] Trip input form (location, budget, transport, duration, vibe)
